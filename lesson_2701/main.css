@@ -1,0 +1,5 @@
+a, a:hover, a:visited {
+    text-decoration: none; /* сброс стилей для ссылки */
+    color: #6c1818; /* цвет ссылок */
+    text-transform: uppercase; /* капсом */
+}
