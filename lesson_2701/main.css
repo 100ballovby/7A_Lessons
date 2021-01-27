@@ -14,3 +14,12 @@ a:hover {
     border: 2px solid #1bfffb;
     /* рамка: размер сплошная цвет */
 }
+
+img {
+    transition: width 1s, transform 1s;
+}
+
+img:hover {
+    width: 200px;
+    transform: rotate(180deg);
+}
