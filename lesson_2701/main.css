@@ -1,5 +1,16 @@
 a, a:hover, a:visited {
     text-decoration: none; /* сброс стилей для ссылки */
-    color: #6c1818; /* цвет ссылок */
+    color: #000000; /* цвет ссылок */
     text-transform: uppercase; /* капсом */
+    font-size: 16px; /* размер букв - 16 пикселей */
+
+    transition: color 1s, font-size 1s, border 1.5s;
+    /* анимировать: свойство время, свойство время, свойство время */
+}
+
+a:hover {
+    font-size: 18px;
+    color: #1bfffb;
+    border: 2px solid #1bfffb;
+    /* рамка: размер сплошная цвет */
 }
