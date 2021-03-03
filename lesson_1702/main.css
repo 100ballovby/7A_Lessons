@@ -1,0 +1,25 @@
+header,
+section,
+div,
+footer {
+    height: 100vh;
+    margin: 20px 0;
+    /* внешние отступы 20пикс верх-низ, 0 слева-справа */
+    padding: 1em;
+    text-align: center;
+    font-size: 32px;
+    color: #636363;
+}
+
+header {
+    background: #ffb1b1;
+}
+section {
+    background: #b1f2ff;
+}
+div {
+    background: #e0b1ff;
+}
+footer {
+    background: #fff1b1;
+}

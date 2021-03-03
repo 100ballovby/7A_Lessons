@@ -1,0 +1,33 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    background: #934c93;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+    background: #91cece;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+}
+
+.container {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
