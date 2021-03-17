@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+}
+/* ^ сброс стилей: отступы, отображение, размер */
+
+.site-header {
+    height: 40vh; /* 40% от высоты окна браузера */
+    background-image: url("https://whnt.com/wp-content/uploads/sites/20/2020/10/GettyImages-1211293811.jpg?w=2560&h=1440&crop=1");
+    /* ^ ставлю картинку на фон */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.site-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.btn {
+    margin: 1em;
+    padding: 0.5em;
+    border: 2px solid white;
+    color: white;
+    border-radius: 1.5em;
+    background: transparent; /* прозрачный фон */
+    cursor: pointer; /* чтобы курсор менялся,
+    когда вы наводитесь на кнопку */
+}
+
+.btn-header {
+    background: magenta;
+    border-color: magenta;
+}
