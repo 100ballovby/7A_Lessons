@@ -25,15 +25,52 @@
 .btn {
     margin: 1em;
     padding: 0.5em;
-    border: 2px solid white;
-    color: white;
+    border: 2px solid black;
+    color: black;
     border-radius: 1.5em;
     background: transparent; /* прозрачный фон */
     cursor: pointer; /* чтобы курсор менялся,
     когда вы наводитесь на кнопку */
+    min-width: 100px;
 }
 
 .btn-header {
     background: magenta;
     border-color: magenta;
+    color: white;
+}
+
+figure {
+    border: thin #000000 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 0.25em;
+    width: 25%;
+    margin: auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    background: #636363;
+    color: #fff;
+    padding: 0.25em;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+    margin: auto;
+    max-width: 900px;
 }
