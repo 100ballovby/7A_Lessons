@@ -8,5 +8,28 @@
 </head>
 <body>
 
+<h1>Random password generator</h1>
+
+<hr>
+
+<div class="generator">
+    <h4>Какие символы включить в пароль?</h4>
+    <ul class="password_gen">
+        <li><input type="checkbox" id="arr_num"> Цифры</li>
+        <li><input type="checkbox" id="arr_en"> Буквы a-z</li>
+        <li><input type="checkbox" id="arr_EN_up"> Буквы A-Z</li>
+        <li><input type="checkbox" id="arr_symb"> Спецсимволы</li>
+    </ul>
+
+    <p>Количество символов в пароле: <input id="number"
+                                            type="number"
+                                            step="1"
+                                            min="4"
+                                            max="20"
+                                            value="7"></p>
+    <p>Пароль: <span id="res"></span></p>
+    <button class="btn-success" id="pass_start">Сгенерировать</button>
+</div>
+
 </body>
 </html>
