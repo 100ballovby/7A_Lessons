@@ -31,4 +31,5 @@ function generate() {
     document.querySelector('#res').textContent = password;
 }
 
+//document.querySelector('#pass_start').addEventListener('click', generate, false);
 

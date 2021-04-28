@@ -5,6 +5,9 @@
     <title>Title</title>
     <link rel="stylesheet" href="main.css">
     <script src="script.js"></script>
+    <!-- подключаю щрифты -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -28,7 +31,7 @@
                                             max="20"
                                             value="7"></p>
     <p>Пароль: <span id="res"></span></p>
-    <button class="btn-success" id="pass_start">Сгенерировать</button>
+    <button class="btn-success" id="pass_start" onclick="generate()">Сгенерировать</button>
 </div>
 
 </body>
