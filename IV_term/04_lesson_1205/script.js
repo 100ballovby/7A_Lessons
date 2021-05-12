@@ -1,7 +1,7 @@
 function currentTime() {
     let date = new Date(); // создал объект даты
     let hours = date.getHours();
-    hours = (hours === 0) ? 12 : ((hours > 12) ? (hours - 12) : hours)
+    hours = (hours == 0) ? 12 : ((hours > 12) ? (hours - 12) : hours)
     let minutes = date.getMinutes();
     let seconds = date.getSeconds();
     hours = updateTime(hours);
