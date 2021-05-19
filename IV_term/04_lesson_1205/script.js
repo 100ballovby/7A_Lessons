@@ -13,6 +13,16 @@ function currentTime() {
 
     document.getElementById('clock').innerHTML =
         hours + ':' + minutes + ':' + seconds + ' ' + midday;
+
+    let month = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май',
+        'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'];
+    let days = ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];
+    let curWeekDay = days[date.getDay()];
+    let curMonth = month[date.getMonth()];
+    let curDay = date.getDate();
+    let curYear = date.getFullYear();
+    let today = curWeekDay + ' ' + curDay + ' ' + curMonth + ' ' + curYear;
+    document.getElementById('date').innerHTML = today;
     let t = setTimeout(function(){currentTime()}, 1000);
 }
 
